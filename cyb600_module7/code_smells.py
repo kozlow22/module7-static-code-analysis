@@ -1,4 +1,4 @@
-def checkIfPrime():
+def check_if_prime():
     I, temp = 0, 0
     n = int(str(int(input("please give a number : "))))
     for I in range(2, n // 2):
@@ -11,4 +11,4 @@ def checkIfPrime():
         return("given number is prime")
 
 if __name__ == "__main__":
-    print(checkIfPrime())
+    print(check_if_prime())
